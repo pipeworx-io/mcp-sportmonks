@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/sportmonks",
   "title": "Sportmonks",
   "description": "Sportmonks Football MCP — wraps the Sportmonks Football v3 API",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/sportmonks",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-sportmonks",
