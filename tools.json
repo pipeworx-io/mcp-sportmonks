@@ -1,0 +1,87 @@
+[
+  {
+    "name": "sportmonks_fixture",
+    "description": "Match details + stats for a soccer fixture: score, participants (teams), statistics, and events. Example: sportmonks_fixture({ id: 19146701, _apiKey: \"your-token\" })",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": [
+            "string",
+            "number"
+          ],
+          "description": "Sportmonks fixture (match) ID, e.g. 19146701"
+        },
+        "_apiKey": {
+          "type": "string",
+          "description": "Sportmonks API token (get one at my.sportmonks.com; free plan = Danish/Scottish leagues)"
+        }
+      },
+      "required": [
+        "id",
+        "_apiKey"
+      ]
+    }
+  },
+  {
+    "name": "sportmonks_livescores",
+    "description": "Live in-play soccer matches now — current minute, state, teams, and running score. Example: sportmonks_livescores({ _apiKey: \"your-token\" })",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "_apiKey": {
+          "type": "string",
+          "description": "Sportmonks API token (get one at my.sportmonks.com; free plan = Danish/Scottish leagues)"
+        }
+      },
+      "required": [
+        "_apiKey"
+      ]
+    }
+  },
+  {
+    "name": "sportmonks_fixtures_by_date",
+    "description": "Soccer fixtures on a date — every match scheduled/played on a given day with teams and scores. Example: sportmonks_fixtures_by_date({ date: \"2026-05-24\", _apiKey: \"your-token\" })",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "type": "string",
+          "description": "Date in YYYY-MM-DD format, e.g. \"2026-05-24\""
+        },
+        "_apiKey": {
+          "type": "string",
+          "description": "Sportmonks API token (get one at my.sportmonks.com; free plan = Danish/Scottish leagues)"
+        }
+      },
+      "required": [
+        "date",
+        "_apiKey"
+      ]
+    }
+  },
+  {
+    "name": "sportmonks_predictions",
+    "description": "Win/draw/loss prediction for a fixture — Sportmonks model probabilities for home win, draw, and away win. Example: sportmonks_predictions({ id: 19146701, _apiKey: \"your-token\" })",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": [
+            "string",
+            "number"
+          ],
+          "description": "Sportmonks fixture (match) ID, e.g. 19146701"
+        },
+        "_apiKey": {
+          "type": "string",
+          "description": "Sportmonks API token (get one at my.sportmonks.com; free plan = Danish/Scottish leagues)"
+        }
+      },
+      "required": [
+        "id",
+        "_apiKey"
+      ]
+    }
+  }
+]
