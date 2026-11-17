@@ -1,7 +1,7 @@
 {
   "name": "@pipeworx/mcp-sportmonks",
-  "version": "0.2.1",
-  "description": "Sportmonks Football MCP — wraps the Sportmonks Football v3 API (docs.sportmonks.com/football). Soccer analytics that go deeper than football-data / api-football: xG, deep predictions, statistics.",
+  "version": "0.2.2",
+  "description": "Unofficial Sportmonks Football MCP — wraps the Sportmonks Football v3 API (docs.sportmonks.com/football). Soccer analytics that go deeper than football-data / api-football: xG, deep predictions, statistics.",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "sportmonks",
     "gatewaySlug": "sportmonks",
-    "sourceHash": "v1-fd332985b1bae44d58d84c0a17e0315bc25c11abc92fb27e718e72a51ac0dd6b",
-    "sourceCommit": "8fc802aa5e23be625ce08d97178f5676c7bc93f3"
+    "sourceHash": "v1-ff21477fd117ca8579bb62e1c9616f4a1b49373a3e11ad8789a36b00c0cefc70",
+    "sourceCommit": "6e7ae693219a515a7ee6dd88d02390ab290fbad3"
   }
 }
